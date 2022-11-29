@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "target": "ESNext",
-        "moduleResolution": "NodeNext",
-        "module": "ESNext",
+        "target": "ES2016",
+        "moduleResolution": "node",
+        "module": "CommonJS",
         "composite": true,
         "incremental": true,
         "declaration": true,
@@ -29,7 +29,9 @@
         "pretty": true /* Stylize errors and messages using color and context. */,
         /* Experimental Options */
         "lib": [
-            "ESNext"
+            "es2017",
+            "esnext.asynciterable",
+            "dom"
         ],
         "types": [
             "node"

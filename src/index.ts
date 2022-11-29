@@ -1,7 +1,7 @@
 import * as pulumi from "@pulumi/pulumi";
 
-import * as config from "./config.js";
-import * as fw from "./src/fw.js";
+import * as config from "./config";
+import * as fw from "./fw";
 
 export const resourceGroup = {
   name: config.resourceGroup.name,

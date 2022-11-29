@@ -2,16 +2,8 @@
   "name": "pulumi-fw",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    },
-    "./package.json": "./package.json"
-  },
   "files": [
     "./dist"
   ],

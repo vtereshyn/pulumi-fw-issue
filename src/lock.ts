@@ -1,6 +1,6 @@
 import { CustomResource } from "@pulumi/pulumi";
-import { enums } from "@pulumi/azure-native/types/index.js";
-import { ManagementLockByScope } from "@pulumi/azure-native/authorization/index.js";
+import { enums } from "@pulumi/azure-native/types";
+import { ManagementLockByScope } from "@pulumi/azure-native/authorization";
 
 export function lock<T extends CustomResource>(
   resource: T & { __name?: string; __protect?: boolean },

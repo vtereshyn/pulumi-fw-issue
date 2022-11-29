@@ -4,11 +4,11 @@ import {
   FirewallPolicyRuleCollectionGroup,
   PublicIPAddress,
   Subnet,
-} from "@pulumi/azure-native/network/index.js";
-import { lock } from "./lock.js";
+} from "@pulumi/azure-native/network";
+import { lock } from "./lock";
 
-import { vnet } from "./vnet.js";
-import { fwPrivateIPAddress, resourceGroup, defaultTags } from "../config.js";
+import { vnet } from "./vnet";
+import { fwPrivateIPAddress, resourceGroup, defaultTags } from "./config";
 
 export const pip = lock(
   new PublicIPAddress(
