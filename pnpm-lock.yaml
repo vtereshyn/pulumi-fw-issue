@@ -4,7 +4,6 @@ specifiers:
   '@pulumi/azure-native': ^1.87.0
   '@pulumi/pulumi': ^3.48.0
   '@types/base-64': 1.0.0
-  '@types/lodash': 4.14.170
   '@types/node': 15.6.1
   '@types/ssh2': 0.5.46
   ts-node: ^10.9.1
@@ -18,7 +17,6 @@ dependencies:
 
 devDependencies:
   '@types/base-64': 1.0.0
-  '@types/lodash': 4.14.170
   '@types/node': 15.6.1
   '@types/ssh2': 0.5.46
 
@@ -263,10 +261,6 @@ packages:
 
   /@types/base-64/1.0.0:
     resolution: {integrity: sha512-AvCJx/HrfYHmOQRFdVvgKMplXfzTUizmh0tz9GFTpDePWgCY4uoKll84zKlaRoeiYiCr7c9ZnqSTzkl0BUVD6g==}
-    dev: true
-
-  /@types/lodash/4.14.170:
-    resolution: {integrity: sha512-bpcvu/MKHHeYX+qeEN8GE7DIravODWdACVA1ctevD8CN24RhPZIKMn9ntfAsrvLfSX3cR5RrBKAbYm9bGs0A+Q==}
     dev: true
 
   /@types/node/15.6.1:

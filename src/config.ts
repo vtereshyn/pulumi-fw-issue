@@ -1,5 +1,5 @@
 import * as pulumi from "@pulumi/pulumi";
-import { ResourceGroup } from "@pulumi/azure-native/resources/index.js";
+import { ResourceGroup } from "@pulumi/azure-native/resources";
 
 const config = new pulumi.Config();
 
